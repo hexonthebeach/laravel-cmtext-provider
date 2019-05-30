@@ -1,0 +1,22 @@
+{
+    "name": "hexonthebeach/laravel-cmtext-provider",
+    "description": "CM.com TextClient in a Laravel Service Provider.",
+    "type": "library",
+    "version": "1.0.0",
+    "keywords": ["cm.com","laravel","provider","sms","rcs","whatsapp","viber","line","wechat","imessage"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Niels Verbaken",
+            "email": "nielsverbaken@outlook.com"
+        }
+    ],
+    "require": {
+        "cmdotcom/text-sdk-php": "^1.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "hexonthebeach\\LaravelCMTextProvider\\": "src/"
+        }
+    }
+}
